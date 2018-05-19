@@ -1,0 +1,26 @@
+{
+    "name": "mnocon/release-utilities",
+    "description": "Automatically perform tasks related to eZ Platform releases",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marek Nocoń",
+            "email": "marek.nocon@ez.no"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+        "symfony/console": "~2.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "doctrine/coding-standard": "^4.0",
+        "behat/behat": "^3.4"
+    }
+}
