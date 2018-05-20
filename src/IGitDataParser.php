@@ -9,5 +9,5 @@ interface IGitDataParser
     /**
      * @return string[]
      */
-    public function listChanges(string $versionFrom, string $versionTo) : array;
+    public function listChanges() : array;
 }

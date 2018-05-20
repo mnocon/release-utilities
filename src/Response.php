@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace ReleaseUtilities;
 
-class RestResponse
+class Response
 {
     /** @var int */
     public $statusCode;

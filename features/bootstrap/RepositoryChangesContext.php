@@ -6,8 +6,9 @@ namespace ReleaseUtilitiesTest\Features;
 
 use Behat\Behat\Context\Context;
 use PHPUnit\Framework\Assert;
-use ReleaseUtilities\GitDataParser;
-use ReleaseUtilitiesTest\GitHubDataProviderStub;
+use ReleaseUtilities\CommitData;
+use ReleaseUtilities\GitHubDataParser;
+use ReleaseUtilitiesTest\GitHubRestDataProviderStub;
 
 class RepositoryChangesContext implements Context
 {
@@ -18,9 +19,8 @@ class RepositoryChangesContext implements Context
     public function __construct()
     {
         $this->expectedChanges = [
-            'Commit 4',
-            'Commit 5',
-            'Commit 6',
+            new CommitData('c7ff18eee7dddb253d10a4a4ff957f192ea3469f', "EZP-29046: As an Editor, I want to have \"Content field definitions\" header sticky to the top (#433)\n\n* EZP-29046: As an Editor, I want to have \"Content field definitions\" header sticky to the top\r\n\r\n* EZP-29046: Styling additions\r\n\r\n* Suggested changes\r\n\r\n* EZP-29046: As an Editor, I want to have \"Content field definitions\" header sticky to the top\r\n\r\n* EZP-29046: Styling additions"),
+            new CommitData('127df9641d92669326cbf98b32892eea16264b0e', "Merge branch '1.1'"),
         ];
     }
 
@@ -39,7 +39,8 @@ class RepositoryChangesContext implements Context
     /** @When I check for differences between :version1 and :version2 */
     public function iCheckForDifferencesBetweenAnd($version1, $version2) : void
     {
-        $repository          = new GitDataParser(new GitHubDataProviderStub($this->repositoryName));
-        $this->actualChanges = $repository->listChanges($version1, $version2);
+        $dataProvider = new GitHubRestDataProviderStub();
+        $repository = new GitHubDataParser($dataProvider->getAheadCompareResponse()->responseBody);
+        $this->actualChanges = $repository->listChanges();
     }
 }

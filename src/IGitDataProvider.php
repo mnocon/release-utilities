@@ -6,5 +6,5 @@ namespace ReleaseUtilities;
 
 interface IGitDataProvider
 {
-    public function getCompareResponse(string $from, string $to) : RestResponse;
+    public function getCompareResponse(string $from, string $to) : Response;
 }
