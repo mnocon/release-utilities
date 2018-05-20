@@ -11,9 +11,11 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "classmap": [
-            "src/"
-        ]
+        "psr-4": {
+            "ReleaseUtilities\\": "src/",
+            "ReleaseUtilitiesTest\\": "tests/",
+            "ReleaseUtilitiesTest\\Features\\": "features/bootstrap/"
+        }
     },
     "require": {
         "symfony/console": "~2.8"

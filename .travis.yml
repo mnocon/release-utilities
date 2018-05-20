@@ -6,3 +6,10 @@ install:
 script: 
   - ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/
   - vendor/bin/behat
+
+notifications:
+  email:
+    recipients:
+      - markno+travis@gmail.com
+    on_success: change
+    on_failure: always

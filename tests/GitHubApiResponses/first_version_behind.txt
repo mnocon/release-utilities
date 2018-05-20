@@ -1,0 +1,165 @@
+{
+    "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/compare/master...1.0",
+    "html_url": "https://github.com/ezsystems/ezplatform-admin-ui/compare/master...1.0",
+    "permalink_url": "https://github.com/ezsystems/ezplatform-admin-ui/compare/ezsystems:6c6be3d...ezsystems:c130f0e",
+    "diff_url": "https://github.com/ezsystems/ezplatform-admin-ui/compare/master...1.0.diff",
+    "patch_url": "https://github.com/ezsystems/ezplatform-admin-ui/compare/master...1.0.patch",
+    "base_commit": {
+        "sha": "6c6be3daa58afce1e063fdc035b8ce616bf6c765",
+        "commit": {
+            "author": {
+                "name": "Dawid Parafiński",
+                "email": "dawid.parafinski@ez.no",
+                "date": "2018-05-18T09:30:53Z"
+            },
+            "committer": {
+                "name": "Dawid Parafiński",
+                "email": "dawid.parafinski@ez.no",
+                "date": "2018-05-18T09:30:53Z"
+            },
+            "message": "EZP-28837: As an editor I want to access to my bookmarks - header margin",
+            "tree": {
+                "sha": "f22c82f9f6b44f8408441bb8fa18f02c2a31d140",
+                "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/git/trees/f22c82f9f6b44f8408441bb8fa18f02c2a31d140"
+            },
+            "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/git/commits/6c6be3daa58afce1e063fdc035b8ce616bf6c765",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/commits/6c6be3daa58afce1e063fdc035b8ce616bf6c765",
+        "html_url": "https://github.com/ezsystems/ezplatform-admin-ui/commit/6c6be3daa58afce1e063fdc035b8ce616bf6c765",
+        "comments_url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/commits/6c6be3daa58afce1e063fdc035b8ce616bf6c765/comments",
+        "author": {
+            "login": "ViniTou",
+            "id": 19517274,
+            "avatar_url": "https://avatars1.githubusercontent.com/u/19517274?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ViniTou",
+            "html_url": "https://github.com/ViniTou",
+            "followers_url": "https://api.github.com/users/ViniTou/followers",
+            "following_url": "https://api.github.com/users/ViniTou/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ViniTou/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ViniTou/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ViniTou/subscriptions",
+            "organizations_url": "https://api.github.com/users/ViniTou/orgs",
+            "repos_url": "https://api.github.com/users/ViniTou/repos",
+            "events_url": "https://api.github.com/users/ViniTou/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ViniTou/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "ViniTou",
+            "id": 19517274,
+            "avatar_url": "https://avatars1.githubusercontent.com/u/19517274?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ViniTou",
+            "html_url": "https://github.com/ViniTou",
+            "followers_url": "https://api.github.com/users/ViniTou/followers",
+            "following_url": "https://api.github.com/users/ViniTou/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ViniTou/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ViniTou/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ViniTou/subscriptions",
+            "organizations_url": "https://api.github.com/users/ViniTou/orgs",
+            "repos_url": "https://api.github.com/users/ViniTou/repos",
+            "events_url": "https://api.github.com/users/ViniTou/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ViniTou/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "48eb5fa78feab152ca4249e7aee224b34e9250df",
+                "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/commits/48eb5fa78feab152ca4249e7aee224b34e9250df",
+                "html_url": "https://github.com/ezsystems/ezplatform-admin-ui/commit/48eb5fa78feab152ca4249e7aee224b34e9250df"
+            }
+        ]
+    },
+    "merge_base_commit": {
+        "sha": "c130f0ef71c6ec450dbbec6216cba8d090b0a0f7",
+        "commit": {
+            "author": {
+                "name": "Maciej Tyrała",
+                "email": "tyrala.maciej@gmail.com",
+                "date": "2018-04-03T20:25:58Z"
+            },
+            "committer": {
+                "name": "Łukasz Serwatka",
+                "email": "l.serwatka@gazeta.pl",
+                "date": "2018-04-03T20:25:58Z"
+            },
+            "message": "EZP-28168 - Behat Covering of SystemInfo (#432)\n\n* EZP-28168 - Behat Covering of SystemInfo\r\n\r\n* EZP-28168 - Behat Covering of System Information - fixes",
+            "tree": {
+                "sha": "eb29bc61b1bfbc0217e42c05a04b159e20740ddc",
+                "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/git/trees/eb29bc61b1bfbc0217e42c05a04b159e20740ddc"
+            },
+            "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/git/commits/c130f0ef71c6ec450dbbec6216cba8d090b0a0f7",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/commits/c130f0ef71c6ec450dbbec6216cba8d090b0a0f7",
+        "html_url": "https://github.com/ezsystems/ezplatform-admin-ui/commit/c130f0ef71c6ec450dbbec6216cba8d090b0a0f7",
+        "comments_url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/commits/c130f0ef71c6ec450dbbec6216cba8d090b0a0f7/comments",
+        "author": {
+            "login": "m-tyrala",
+            "id": 23000531,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/23000531?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/m-tyrala",
+            "html_url": "https://github.com/m-tyrala",
+            "followers_url": "https://api.github.com/users/m-tyrala/followers",
+            "following_url": "https://api.github.com/users/m-tyrala/following{/other_user}",
+            "gists_url": "https://api.github.com/users/m-tyrala/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/m-tyrala/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/m-tyrala/subscriptions",
+            "organizations_url": "https://api.github.com/users/m-tyrala/orgs",
+            "repos_url": "https://api.github.com/users/m-tyrala/repos",
+            "events_url": "https://api.github.com/users/m-tyrala/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/m-tyrala/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "lserwatka",
+            "id": 130489,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/130489?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lserwatka",
+            "html_url": "https://github.com/lserwatka",
+            "followers_url": "https://api.github.com/users/lserwatka/followers",
+            "following_url": "https://api.github.com/users/lserwatka/following{/other_user}",
+            "gists_url": "https://api.github.com/users/lserwatka/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/lserwatka/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/lserwatka/subscriptions",
+            "organizations_url": "https://api.github.com/users/lserwatka/orgs",
+            "repos_url": "https://api.github.com/users/lserwatka/repos",
+            "events_url": "https://api.github.com/users/lserwatka/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/lserwatka/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "06b0d1a47490c0ec6b741c6b0f2a258767c7b38f",
+                "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/commits/06b0d1a47490c0ec6b741c6b0f2a258767c7b38f",
+                "html_url": "https://github.com/ezsystems/ezplatform-admin-ui/commit/06b0d1a47490c0ec6b741c6b0f2a258767c7b38f"
+            }
+        ]
+    },
+    "status": "behind",
+    "ahead_by": 0,
+    "behind_by": 304,
+    "total_commits": 0,
+    "commits": [],
+    "files": []
+}

@@ -1,0 +1,165 @@
+{
+  "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/compare/master...master",
+  "html_url": "https://github.com/ezsystems/ezplatform-admin-ui/compare/master...master",
+  "permalink_url": "https://github.com/ezsystems/ezplatform-admin-ui/compare/ezsystems:6c6be3d...ezsystems:6c6be3d",
+  "diff_url": "https://github.com/ezsystems/ezplatform-admin-ui/compare/master...master.diff",
+  "patch_url": "https://github.com/ezsystems/ezplatform-admin-ui/compare/master...master.patch",
+  "base_commit": {
+    "sha": "6c6be3daa58afce1e063fdc035b8ce616bf6c765",
+    "commit": {
+      "author": {
+        "name": "Dawid Parafiński",
+        "email": "dawid.parafinski@ez.no",
+        "date": "2018-05-18T09:30:53Z"
+      },
+      "committer": {
+        "name": "Dawid Parafiński",
+        "email": "dawid.parafinski@ez.no",
+        "date": "2018-05-18T09:30:53Z"
+      },
+      "message": "EZP-28837: As an editor I want to access to my bookmarks - header margin",
+      "tree": {
+        "sha": "f22c82f9f6b44f8408441bb8fa18f02c2a31d140",
+        "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/git/trees/f22c82f9f6b44f8408441bb8fa18f02c2a31d140"
+      },
+      "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/git/commits/6c6be3daa58afce1e063fdc035b8ce616bf6c765",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/commits/6c6be3daa58afce1e063fdc035b8ce616bf6c765",
+    "html_url": "https://github.com/ezsystems/ezplatform-admin-ui/commit/6c6be3daa58afce1e063fdc035b8ce616bf6c765",
+    "comments_url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/commits/6c6be3daa58afce1e063fdc035b8ce616bf6c765/comments",
+    "author": {
+      "login": "ViniTou",
+      "id": 19517274,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19517274?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ViniTou",
+      "html_url": "https://github.com/ViniTou",
+      "followers_url": "https://api.github.com/users/ViniTou/followers",
+      "following_url": "https://api.github.com/users/ViniTou/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ViniTou/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ViniTou/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ViniTou/subscriptions",
+      "organizations_url": "https://api.github.com/users/ViniTou/orgs",
+      "repos_url": "https://api.github.com/users/ViniTou/repos",
+      "events_url": "https://api.github.com/users/ViniTou/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ViniTou/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ViniTou",
+      "id": 19517274,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19517274?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ViniTou",
+      "html_url": "https://github.com/ViniTou",
+      "followers_url": "https://api.github.com/users/ViniTou/followers",
+      "following_url": "https://api.github.com/users/ViniTou/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ViniTou/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ViniTou/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ViniTou/subscriptions",
+      "organizations_url": "https://api.github.com/users/ViniTou/orgs",
+      "repos_url": "https://api.github.com/users/ViniTou/repos",
+      "events_url": "https://api.github.com/users/ViniTou/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ViniTou/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "48eb5fa78feab152ca4249e7aee224b34e9250df",
+        "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/commits/48eb5fa78feab152ca4249e7aee224b34e9250df",
+        "html_url": "https://github.com/ezsystems/ezplatform-admin-ui/commit/48eb5fa78feab152ca4249e7aee224b34e9250df"
+      }
+    ]
+  },
+  "merge_base_commit": {
+    "sha": "6c6be3daa58afce1e063fdc035b8ce616bf6c765",
+    "commit": {
+      "author": {
+        "name": "Dawid Parafiński",
+        "email": "dawid.parafinski@ez.no",
+        "date": "2018-05-18T09:30:53Z"
+      },
+      "committer": {
+        "name": "Dawid Parafiński",
+        "email": "dawid.parafinski@ez.no",
+        "date": "2018-05-18T09:30:53Z"
+      },
+      "message": "EZP-28837: As an editor I want to access to my bookmarks - header margin",
+      "tree": {
+        "sha": "f22c82f9f6b44f8408441bb8fa18f02c2a31d140",
+        "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/git/trees/f22c82f9f6b44f8408441bb8fa18f02c2a31d140"
+      },
+      "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/git/commits/6c6be3daa58afce1e063fdc035b8ce616bf6c765",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/commits/6c6be3daa58afce1e063fdc035b8ce616bf6c765",
+    "html_url": "https://github.com/ezsystems/ezplatform-admin-ui/commit/6c6be3daa58afce1e063fdc035b8ce616bf6c765",
+    "comments_url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/commits/6c6be3daa58afce1e063fdc035b8ce616bf6c765/comments",
+    "author": {
+      "login": "ViniTou",
+      "id": 19517274,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19517274?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ViniTou",
+      "html_url": "https://github.com/ViniTou",
+      "followers_url": "https://api.github.com/users/ViniTou/followers",
+      "following_url": "https://api.github.com/users/ViniTou/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ViniTou/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ViniTou/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ViniTou/subscriptions",
+      "organizations_url": "https://api.github.com/users/ViniTou/orgs",
+      "repos_url": "https://api.github.com/users/ViniTou/repos",
+      "events_url": "https://api.github.com/users/ViniTou/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ViniTou/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ViniTou",
+      "id": 19517274,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19517274?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ViniTou",
+      "html_url": "https://github.com/ViniTou",
+      "followers_url": "https://api.github.com/users/ViniTou/followers",
+      "following_url": "https://api.github.com/users/ViniTou/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ViniTou/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ViniTou/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ViniTou/subscriptions",
+      "organizations_url": "https://api.github.com/users/ViniTou/orgs",
+      "repos_url": "https://api.github.com/users/ViniTou/repos",
+      "events_url": "https://api.github.com/users/ViniTou/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ViniTou/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "48eb5fa78feab152ca4249e7aee224b34e9250df",
+        "url": "https://api.github.com/repos/ezsystems/ezplatform-admin-ui/commits/48eb5fa78feab152ca4249e7aee224b34e9250df",
+        "html_url": "https://github.com/ezsystems/ezplatform-admin-ui/commit/48eb5fa78feab152ca4249e7aee224b34e9250df"
+      }
+    ]
+  },
+  "status": "identical",
+  "ahead_by": 0,
+  "behind_by": 0,
+  "total_commits": 0,
+  "commits": [],
+  "files": []
+}
